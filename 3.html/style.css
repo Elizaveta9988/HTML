@@ -1,27 +1,27 @@
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
 }
 
 body {
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-    background: #FFFFFF;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	background: #FFFFFF;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+	display: block;
+	max-width: 100%;
 }
 
 .container {
-    width: 1146px;
-    margin: 0 auto;
+	width: 1146px;
+	margin: 0 auto;
 }
-
 
 /* --------------------------- */
 
@@ -30,33 +30,34 @@ header {
     margin-top: 40px;
 }
 
-.header__wrapper {
+.header__wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .navigation {
+
     width: 533px;
     display: flex;
     justify-content: space-between;
 }
-
 .link {
     font-family: 'Gilroy-Medium';
     font-size: 14px;
     line-height: 16px;
     color: #000000;
 }
-
 .navigation a:hover {
+
     color: #F25822;
 }
 
 .select_nav {
-    border: none;
-    position: relative;
-    outline: none;
+	border: none;
+	position: relative;
+	outline: none;	
+    
 }
 
 main {
@@ -69,11 +70,13 @@ main {
     justify-content: space-between;
 }
 
-.main__content__leftSide {
+.main__content__leftSide{
     width: 522px;
-}
 
-.img-right {}
+} 
+
+.img-right{
+}
 
 .big-title {
     font-family: 'Gilroy-Bold';
@@ -97,19 +100,19 @@ main {
     margin-top: 37px;
 }
 
-.btn {
+.btn{
     width: 140px;
     height: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
-    border-radius: 50px;
+    border-radius: 50px;   
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: #FFFFFF; 
 }
 
-.btn1 {
+.btn1{
     width: 140px;
     height: 50px;
     border-radius: 50px;
@@ -125,12 +128,12 @@ main {
     background: #cc3d09;
 }
 
-.btn1:hover {
-    background: #c0bdbd;
+.btn1:hover{   
+    background: #c0bdbd; 
     color: #FFFFFF;
 }
 
-.logos {
+.logos{
     display: flex;
     width: 1170px;
     justify-content: space-between;
@@ -190,8 +193,8 @@ main {
     display: flex;
     padding-top: 92px;
     padding-bottom: 54px;
-    align-items: center;
-    flex-direction: column;
+	align-items: center;
+	flex-direction: column;
 }
 
 .page_title h1 {
@@ -220,15 +223,15 @@ main {
 .card__high {
     background-color: #FFFFFF;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+	align-items: center;
+	flex-direction: column;
 }
 
 .card__high:hover {
     box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
 }
 
-.card__high h2 {
+.card__high h2{
     padding-top: 25px;
     padding-bottom: 22px;
     font-family: 'Gilroy-Bold';
@@ -262,6 +265,6 @@ main {
     color: #FFFFFF;
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
-    border-radius: 50px;
-    border: #F25822;
+    border-radius: 50px; 
+    border: #F25822;   
 }
